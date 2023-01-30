@@ -1,1 +1,26 @@
 @charset "UTF-8";
+/* Nav */
+#nav {
+    background: #163A24;
+}
+#nav .navbar,
+#nav .navbar-link {
+    height: 98px;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* Logo */
+    .navbar .navbar-logo img {
+        width: 153px;
+        height: 58px;
+    }
+    .navbar .navbar-link a:not(.navbar-link a:last-child) {
+        color: #FBFAF7;
+        margin-right: 24px;
+        transition: all .3s ease;
+        border-bottom: 2px solid transparent;
+    }
+    .navbar .navbar-link a:not(.navbar-link a:last-child):hover,
+    .navbar .navbar-link a:not(.navbar-link a:last-child):focus {
+        border-bottom: 2px solid #FBC8B8;
+    }
