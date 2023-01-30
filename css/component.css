@@ -1,11 +1,22 @@
+/* Fonts */
+@font-face {
+    font-family: Recoleta;
+    src: url("../fonts/recoleta/Recoleta-RegularDEMO.otf");
+}
 /* All */
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
     font-style: normal;
     scroll-behavior: smooth;
+}
+/* Body */
+body {
+    background-color: #fff;
 }
 /* Container */
 .container {
@@ -14,8 +25,20 @@
 }
 /* html */
 :root {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
+}
+/* Row */
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+/* Heading */
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: Recoleta;
 }
 /* Link */
 a {
