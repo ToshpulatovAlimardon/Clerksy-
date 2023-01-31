@@ -16,7 +16,7 @@
 }
 /* Body */
 body {
-    background-color: #fff;
+    background: #E5E5E5;
 }
 /* Container */
 .container {
@@ -40,6 +40,14 @@ h3,
 h4 {
     font-family: Recoleta;
     font-weight: 600;
+    color: #163A24;
+}
+/* Paragraph */
+p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #163A24;
 }
 /* Link */
 a {
@@ -67,26 +75,6 @@ a {
     font-weight: 500;
     font-size: 1.25rem;
     color: #fff;
-}
-.btn img {
-    width: 43px;
-}
-/* Section */
-section {
-    margin-top: 190px;
-}
-/* Section title */
-.section-title span {
-    font-weight: 500;
-    font-size: 1.75rem;
-    color: #F78CB6;
-    margin-bottom: 6px;
-}
-.section-title h2 {
-    font-weight: 700;
-    font-size: 3.25rem;
-    color: #56597A;
-    margin-bottom: 58px;
 }
 /* Text align */
 .text-center {

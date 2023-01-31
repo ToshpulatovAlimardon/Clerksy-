@@ -56,3 +56,40 @@
         .header-content .header-img img{
             width: 650px;
         }
+
+/* Story */
+#story {
+    margin: 120px 100px;
+}
+    .story-content .story-item {
+        justify-content: space-between;
+        align-items: center;
+    }
+        /* Story item */
+        .story-item .story-img img {
+            width: 492px;
+        }
+        .story-item .story-des {
+            width: 394px;
+        }
+            .story-item .story-des h2 {
+                font-weight: 600;
+                font-size: 3rem;
+                line-height: 3.375rem;
+                margin-bottom: 27px;
+            }
+    .story-content .partner h3 {
+        margin-top: 115px;
+        margin-bottom: 66px;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 3.375rem;
+        text-align: center;
+    }
+        .story-content .partner .partner-content{
+            justify-content: space-around;
+            align-items: center;
+        }
+            .story-content .partner .partner-content img {
+                width: 110px;
+            }
