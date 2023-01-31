@@ -65,7 +65,7 @@ a {
 }
 .btn a {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fff;
 }
 .btn img {
@@ -78,13 +78,13 @@ section {
 /* Section title */
 .section-title span {
     font-weight: 500;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #F78CB6;
     margin-bottom: 6px;
 }
 .section-title h2 {
     font-weight: 700;
-    font-size: 52px;
+    font-size: 3.25rem;
     color: #56597A;
     margin-bottom: 58px;
 }

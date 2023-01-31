@@ -24,3 +24,35 @@
     .navbar .navbar-link a:not(.navbar-link a:last-child):focus {
         border-bottom: 2px solid #FBC8B8;
     }
+
+/* Header */
+#header {
+    background: #163A24;
+}
+    /* Header content */
+    #header .header-content {
+        align-items: center;
+        justify-content: space-between;
+    }
+        /* Header description */
+        .header-content .header-des {
+            width: 492px;
+        }
+            .header-des h1 {
+                width: 391px;
+                font-weight: 600;
+                font-size: 3rem;
+                line-height: 4.06rem;
+                color: #FBFAF7;
+            }
+            .header-des p {
+                width: 475px;
+                font-weight: 400;
+                font-size: 1.125rem;
+                line-height: 1.68rem;
+                color: #FBFAF7;
+            }
+        /* Header images */
+        .header-content .header-img img{
+            width: 650px;
+        }
