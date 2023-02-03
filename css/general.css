@@ -158,7 +158,7 @@
 }
 #consider .consider-content {
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
     /* Consider content */
     .consider-content .container-item {
@@ -167,6 +167,7 @@
         box-shadow: 5px 5px 20px #E9E4D5;
         border-radius: 15px;
         width: 30%;
+        margin-bottom: 120px;
     }
         .consider-content .container-item img {
             height: 75px;
@@ -186,4 +187,90 @@
                 color: #163A24;
                 margin-bottom: 15px;
                 margin-left: 23px;
+            }
+
+/* Easy */
+#easy {
+    background: #F2EFE6;
+    padding: 114px 0 124px;
+}
+#easy h2 {
+    font-weight: 600;
+    font-size: 2.93rem;
+    line-height: 3.375rem;
+    text-align: center;
+    margin-bottom: 26px;
+}
+#easy p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.68rem;
+    text-align: center;
+    margin-bottom: 26px;
+}
+    #easy .easy-content {
+        justify-content: space-between;
+        align-items: center;
+    }
+        /* Easy item */
+        .easy-content .easy-item {
+            width: 262px;
+            text-align: center;
+        }
+            .easy-content .easy-item p{
+                font-weight: 600;
+                font-size: 1.75rem;
+                line-height: 2rem;
+                margin-bottom: 13px!important;
+            }
+            .easy-content .easy-item span{
+                font-weight: 600;
+                font-size: 1.75rem;
+                line-height: 2rem;
+                text-align: center;
+                color: #163A24;
+            }
+            #easy .btn-easy {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #easy a {
+                width: 244px;
+                text-align: center;
+            }
+
+/* Business */
+#business {
+    background: var(--color-green);
+}
+    #business .business-content {
+        justify-content: space-between;
+        align-items: center;
+    }
+        .business-content .business-des {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+            .business-content .business-des h2 {
+                font-weight: 600;
+                font-size: 3rem;
+                line-height: 3.375rem;
+                text-align: center;
+                color: #FBFAF7;
+                margin-bottom: 26px;
+            }
+            .business-content .business-des p {
+                font-weight: 400;
+                font-size: 1.125rem;
+                line-height: 1.68rem;
+                text-align: center;
+                color: #FBFAF7;
+                margin-bottom: 18px;
+            }
+            .business-content .business-des a {
+                background: #FAB5A0;
+                color: #163A24;
             }
