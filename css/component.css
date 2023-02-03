@@ -16,7 +16,8 @@
 }
 /* Body */
 body {
-    background: #E5E5E5;
+    background: #f7f7f7;
+    color: #FBFAF7;
 }
 /* Container */
 .container {
@@ -27,6 +28,7 @@ body {
 :root {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
+    --color-green: #163A24;
 }
 /* Row */
 .row {
@@ -79,4 +81,11 @@ a {
 /* Text align */
 .text-center {
     text-align: center;
+}
+/* margin-bottom */
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
 }

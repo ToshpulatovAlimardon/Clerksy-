@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Nav */
 #nav {
-    background: #163A24;
+    background: var(--color-green);
 }
 #nav .navbar,
 #nav .navbar-link {
@@ -27,7 +27,7 @@
 
 /* Header */
 #header {
-    background: #163A24;
+    background: var(--color-green);
 }
     /* Header content */
     #header .header-content {
@@ -92,4 +92,98 @@
         }
             .story-content .partner .partner-content img {
                 width: 110px;
+            }
+
+/* Contumer */ 
+#costumer {
+    background-color: var(--color-green);
+    padding: 66px 0 120px;
+}
+    #costumer h2 {
+        color: #FBFAF7;
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 73px;
+    }
+    /* Costumer content */
+    #costumer .costumer-content {
+        justify-content: space-around;
+        align-items: center;
+    }
+        /* Costumer item */
+        .costumer-content .costumer-item {
+            text-align: center;
+        }
+            .costumer-content .costumer-item p {
+                font-weight: 400;
+                font-size: 1.125rem;
+                color: #FBFAF7;
+            }
+            .costumer-content .costumer-item img {
+                margin-bottom: 28px;
+            }
+
+/* Emplaye */
+#employe {
+    background: #F2EFE6;
+    padding: 120px 0;
+    text-align: center;
+}
+    #employe h2 {
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 3.375rem;
+        margin-bottom: 27px;
+    }
+    #employe img {
+        width: 100%;
+    }
+/* Consider */
+#consider h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    text-align: center;
+    margin-bottom: 26px;
+}
+#consider span {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875;
+    text-align: center;
+    margin-bottom: 18px;
+    color: var(--color-green);
+    display: block;
+}
+#consider .consider-content {
+    justify-content: space-between;
+    align-items: center;
+}
+    /* Consider content */
+    .consider-content .container-item {
+        padding: 50px 0px 35px 40px;
+        background: #FBFAF7;
+        box-shadow: 5px 5px 20px #E9E4D5;
+        border-radius: 15px;
+        width: 30%;
+    }
+        .consider-content .container-item img {
+            height: 75px;
+            margin-bottom: 20px;
+        }
+        .consider-content .container-item h3 {
+            font-weight: 600;
+            font-size: 1.75rem;
+            line-height: 2rem;
+            margin-right: 25px;
+            margin-bottom: 23px;
+        }
+            .consider-content .container-item ul li {
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.375rem;
+                color: #163A24;
+                margin-bottom: 15px;
+                margin-left: 23px;
             }
